@@ -6,6 +6,8 @@ const bodyParser = require('body-parser')
 const port = 3100
 const app = express()
 
+// setting static files
+app.use(express.static('public'))
 app.engine('hbs', exhbs(
   {
     defaultLayouts: 'main',
@@ -14,6 +16,7 @@ app.engine('hbs', exhbs(
 ))
 
 app.set('view engine', 'hbs')
+
 
 
 
