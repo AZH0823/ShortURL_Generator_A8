@@ -7,8 +7,8 @@ const bodyParser = require('body-parser')
 const port = 3100
 const app = express()
 const router = require('./routes')
-const generateUTM = require("./generateUTM")
-require('./config/mongoose')
+
+require('./configs/mongoose')
 
 // setting static files
 app.use(express.static('public'))
