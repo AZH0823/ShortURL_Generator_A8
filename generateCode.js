@@ -7,7 +7,7 @@ function randomVaule() {
   let randIndex = Math.floor(Math.random() * (MAX - MIN + 1) + MIN)
   return chars[randIndex]
 }
-function generateUTM(num) {
+function generateCode(num) {
   // console.log('enter generateUTM start ')
   let result = ''
   for (let i = 1; i <= num; i++) {
@@ -20,4 +20,4 @@ function generateUTM(num) {
 
 
 
-module.exports = generateUTM
+module.exports = generateCode
