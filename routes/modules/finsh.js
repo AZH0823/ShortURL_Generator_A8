@@ -8,7 +8,7 @@ const generateCode = require('../../generateCode')
 
 
 router.post('/covert', (req, res) => {
-  console.log("Enter Convert URL")
+  // console.log("Enter Convert URL")
   const inputURL = req.body.url //取得使用者所填寫的網址
   let resultURL //儲存該筆最終該筆資料
   // console.log('Post info(inputURL):', inputURL)
@@ -33,7 +33,7 @@ router.post('/covert', (req, res) => {
         URL.create({ originalURL: inputURL, shortURL: shortURL })
         resultURL = ({ originalURL: inputURL, shortURL: shortURL })
       }
-      console.log(resultURL)
+      // console.log(resultURL)
       res.render('finsh', { resultURL })
     })
 })
