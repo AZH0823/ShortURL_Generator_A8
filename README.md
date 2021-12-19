@@ -4,6 +4,12 @@
 
 將長長的網址縮成短短的「短網址產生器」
 
+- HOME 畫面
+![image](https://github.com/AZH0823/ShortURL_Generator_A8/blob/master/public/img/index.jpg)
+
+- Finsh 畫面
+![image](https://github.com/AZH0823/ShortURL_Generator_A8/blob/master/public/img/Finsh.jpg)
+
 ## 功能
 
 - 輸入網址轉換成短網址
