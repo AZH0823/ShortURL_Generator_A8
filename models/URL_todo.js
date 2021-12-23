@@ -6,5 +6,5 @@ const urlchema = new Schema({
   originalURL: { type: String, required: true },
 })
 
-console.log('create Suceess!!')
+// console.log('create Suceess!!', urlchema)
 module.exports = mongoose.model("URList", urlchema)

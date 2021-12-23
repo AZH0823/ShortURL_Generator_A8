@@ -4,7 +4,7 @@ const db = require('../../configs/mongoose')
 db.once('open', () => {
   console.log('create Seeder')
   URL_Geneator.create({
-    shortURL: 'http://shortURL/abcde',
+    shortURL: 'abcde',
     originalURL: 'http://www.google.com'
   })
 })
